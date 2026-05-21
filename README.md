@@ -7,9 +7,20 @@ Usa questo repository quando vuoi iniziare un nuovo progetto con:
 - React 19
 - TypeScript
 - Vite
-- TailwindCSS
+- TailwindCSS v4
 - Supabase
 - Vercel
+
+## Cosa include già
+- Bootstrap frontend Vite + React + TypeScript
+- Supabase client setup
+- GitHub Actions per CI, Deploy, CodeQL e notifiche Telegram
+- Guida di bootstrap e file di supporto per sessioni OpenCode
+
+## Cosa non include ancora di default
+- ESLint configurato
+- Test framework (Vitest/Jest)
+- Branding finale del progetto, da personalizzare dopo il clone
 
 ## Struttura
 - `app/` → applicazione frontend
