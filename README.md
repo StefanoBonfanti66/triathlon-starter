@@ -103,6 +103,9 @@ Questo starter include di default i seguenti workflow:
 - `CodeQL`  
   Analisi di sicurezza CodeQL di GitHub. Eseguita su push/PR su main e settimanalmente (lunedì 04:00).
 
+- `Lint workflows`  
+  Esegue `yamllint` sui file in `.github/workflows` su push, pull request e `workflow_dispatch`.
+
 - `Telegram Test` / `Telegram Test Reusable`  
   Workflow interni usati per validare l'integrazione Telegram.
 
