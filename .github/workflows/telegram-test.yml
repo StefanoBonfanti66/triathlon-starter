@@ -1,4 +1,4 @@
-name: "Telegram Test"
+name: Telegram Test
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ jobs:
           ACTOR: ${{ github.actor }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          MESSAGE="✅ Telegram test OK
+          MESSAGE="Telegram test OK
           Repo: ${REPO}
           Actor: ${ACTOR}
           Run: ${RUN_URL}"
