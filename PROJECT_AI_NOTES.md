@@ -1,5 +1,8 @@
 # Project: NOME_PROGETTO
 
+Template per nuovi progetti — personalizza questo file dopo aver clonato il repository.
+Compila le sezioni sottostanti per tracciare obiettivi, decisioni e progresso delle sessioni OpenCode.
+
 ## Obiettivo
 - Scopo:
 - Stato attuale:
