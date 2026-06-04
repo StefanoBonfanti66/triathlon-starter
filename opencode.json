@@ -43,18 +43,6 @@
         "ALLOWED_DIRECTORIES": "/home/sbonfanti/ai-dev,/home/sbonfanti/Scrivania/Progetti"
       }
     },
-    "ListiniMCP": {
-      "type": "local",
-      "command": [
-        "uv",
-        "run",
-        "--with",
-        "fastmcp",
-        "fastmcp",
-        "run",
-        "C:\\progetti_stefano\\automations\\creatore_listini\\listini_mcp.py"
-      ]
-    },
     "playwright": {
       "type": "local",
       "command": [
