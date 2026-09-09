@@ -3,6 +3,8 @@ name: Telegram Test
 on:
   workflow_dispatch:
 
+permissions: read-all
+
 jobs:
   telegram-test:
     runs-on: ubuntu-latest
